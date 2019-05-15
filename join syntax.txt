@@ -1,0 +1,7 @@
+joins 
+Select emp_name as Name,emp_phone as Phone,grade_number as Grade,grade_salary as Salary,Dept_name as Department 
+from employee 
+Inner join Department on employee.dept_id = Department.Dept_Id
+Inner join faculty_details on employee.emp_Id = faculty_details.Emp_id
+Inner join grade on faculty_details.grade_id=grade.grade_Id
+ where is_visiting='true'

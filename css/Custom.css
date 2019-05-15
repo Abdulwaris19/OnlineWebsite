@@ -1,0 +1,10 @@
+﻿body {
+    text-align:center;
+}
+.form-group {
+    margin-right:2rem;
+}
+.background_img {
+    background:url(images/contact_back.png);
+    background-size:25% 25%;
+}
